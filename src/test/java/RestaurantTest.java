@@ -26,7 +26,16 @@ class RestaurantTest {
         Assertions.assertEquals(Boolean.FALSE, restaurant.isRestaurantOpen());
     }
 
+    @Test
+    public void exception_thrown_when_invalid_item_cart_is_given()
+    {
 
+    }
+    @Test
+    public void cart_value_is_returned_when_valid_item_name_is_given()
+    {
+
+    }
 
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
